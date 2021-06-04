@@ -13,6 +13,8 @@ services:
       - ${FRONT_CODE_HOST}:${FRONT_CODE_CONTAINER}:ro
     networks:
       - backend
+    depends_on:
+      - php
     env_file:
       - .env_common
     command: [nginx-debug, '-g', 'daemon off;']
