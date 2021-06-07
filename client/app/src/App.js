@@ -4,7 +4,6 @@ import MainPage from "./components/MainPage";
 import React from "react";
 import Header from "./components/Header";
 import {quotesSiteName, toolBarSections} from "./constants";
-import SocialProjectsPage from "./pages/SocialProjectsPage";
 import themeLight from "./constants/themeLight";
 
 function App(props) {
@@ -16,7 +15,6 @@ function App(props) {
                 <Router>
                     <Switch>
                         <Route path="/" exact component={MainPage}/>
-                        <Route path="/community" component={SocialProjectsPage}/>
                     </Switch>
                 </Router>
             </Container>
