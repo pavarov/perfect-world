@@ -1,5 +1,5 @@
 import {createMuiTheme} from "@material-ui/core/styles";
-import {comfortaaRegular, comfortaaBold, comfortaaLight} from "../fonts/Font";
+import {exo_2Bold, exo_2Light, exo_2Regular} from "../fonts/Font";
 
 
 const themeLight = createMuiTheme({
@@ -14,7 +14,7 @@ const themeLight = createMuiTheme({
         }
     },
     typography: {
-        fontFamily: 'Comfortaa',
+        fontFamily: 'Exo_2',
         body1: {
             fontWeight: 400
         },
@@ -27,7 +27,7 @@ const themeLight = createMuiTheme({
     overrides: {
         MuiCssBaseline: {
             '@global': {
-                '@font-face': [comfortaaLight, comfortaaRegular, comfortaaBold],
+                '@font-face': [exo_2Regular, exo_2Bold, exo_2Light],
             },
         },
     },

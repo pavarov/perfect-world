@@ -1,6 +1,6 @@
-import pathRegular from './Comfortaa/static/Comfortaa-Regular.ttf'
-import pathBold from './Comfortaa/static/Comfortaa-Bold.ttf'
-import pathLight from './Comfortaa/static/Comfortaa-Light.ttf'
+import pathRegular from './Exo_2/static/Exo2-Regular.ttf'
+import pathBold from './Exo_2/static/Exo2-Bold.ttf'
+import pathLight from './Exo_2/static/Exo2-Light.ttf'
 
 class Font {
     constructor(fname, fstyle, fweight, furl) {
@@ -24,12 +24,12 @@ class Font {
     }
 }
 
-const comfortaaLight = new Font('Comfortaa', 'normal', 300, pathLight);
-const comfortaaRegular = new Font('Comfortaa', 'normal', 400, pathRegular);
-const comfortaaBold = new Font('Comfortaa', 'normal', 700, pathBold);
+const exo_2Light = new Font('Exo_2', 'normal', 300, pathLight);
+const exo_2Regular = new Font('Exo_2', 'normal', 400, pathRegular);
+const exo_2Bold = new Font('Exo_2', 'normal', 700, pathBold);
 
 export {
-    comfortaaRegular,
-    comfortaaBold,
-    comfortaaLight
+    exo_2Regular,
+    exo_2Bold,
+    exo_2Light
 }
